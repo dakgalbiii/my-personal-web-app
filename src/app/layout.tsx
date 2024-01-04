@@ -12,7 +12,22 @@ import Link from 'next/link';
 export const metadata: Metadata = {
   icons: "/icon.png",
   title: 'Alvin Shin',
-  description: "Alvin Shin's personal website",
+  description: "I'm Alvin, and I currently attend Stony Brook University for computer science. Welcome to my personal website!",
+  openGraph: {
+    title: "Alvin Shin",
+    description: "I'm Alvin, and I currently attend Stony Brook University for computer science. Welcome to my personal website!",
+    url: "https://www.ashin.dev/",
+    siteName: "ashin.dev",
+    images: [
+      {
+        url: '/icon.png',
+        width: 1000,
+        height: 1000,
+      },
+    ],
+    locale: 'en_US',
+    type: 'website',
+  }
 }
 
 export default function RootLayout({
