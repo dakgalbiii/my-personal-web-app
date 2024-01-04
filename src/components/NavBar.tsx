@@ -11,7 +11,7 @@ const NavBar = () => {
                 <h1 className="text-[#fff] text-[25px] font-[300] transition-ease-in-out duration-200 hover:text-[#ffc117] cursor-pointer" onClick={() => setMenuToggle(false)}>Alvin Shin</h1>
                 <div className="text-[#fff] text-[18px] flex flex-row justify-center items-center space-x-[3rem] hidden md:block">
                     <Link href={"#about"} className={"link-underline-1"}>About</Link>
-                    <Link href={"#work"} className={"link-underline-1"}>Work</Link>
+                    {/* <Link href={"#work"} className={"link-underline-1"}>Work</Link> */}
                     <Link href={"#projects"} className={"link-underline-1"}>Projects</Link>
                     <Link href={"#contacts"} className="rounded-[25px] py-[0.5rem] px-[1rem] whitespace-nowrap text-[#fff] border-[1px] border-[#fff] transition-ease-in-out duration-200 hover:text-[#102921] hover:bg-[#fff]">Contact</Link>
                 </div>
