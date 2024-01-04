@@ -27,7 +27,7 @@ const NavBar = () => {
 
             <div className={"md:hidden z-[1] absolute w-full py-[1rem] bg-[#122e24] text-[#fff] text-[18px] flex flex-col justify-start items-start space-y-[1rem] px-[5%] mt-[85.5px] transition-ease-in-out duration-[500ms] " + ((menuToggled) ? "translate-y-0" : "translate-y-[-714px]")}>
                     <Link href={"#about"} className={"link-underline-1"} onClick={() => setMenuToggle(false)}>About</Link>
-                    <Link href={"#work"} className={"link-underline-1"} onClick={() => setMenuToggle(false)}>Work</Link>
+                    {/* <Link href={"#work"} className={"link-underline-1"} onClick={() => setMenuToggle(false)}>Work</Link> */}
                     <Link href={"#projects"} className={"link-underline-1"} onClick={() => setMenuToggle(false)}>Projects</Link>
                     <Link href={"#contacts"} className="text-center w-full rounded-[25px] py-[0.5rem] px-[1rem] whitespace-nowrap text-[#fff] border-[1px] border-[#fff] transition-ease-in-out duration-200 hover:text-[#102921] hover:bg-[#fff]" onClick={() => setMenuToggle(false)}>Contact me</Link>
             </div>
