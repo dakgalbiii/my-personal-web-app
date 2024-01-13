@@ -1,5 +1,5 @@
 {
-  "name": "my-personal-web-app",
+  "name": "my-personal-web-app-v2",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -9,30 +9,25 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^6.4.2",
-    "@fortawesome/free-brands-svg-icons": "^6.4.2",
-    "@fortawesome/free-regular-svg-icons": "^6.4.2",
-    "@fortawesome/free-solid-svg-icons": "^6.4.2",
+    "@fortawesome/free-brands-svg-icons": "^6.5.1",
+    "@fortawesome/free-regular-svg-icons": "^6.5.1",
+    "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
-    "@next/font": "^13.5.4",
-    "@types/node": "20.6.0",
-    "@types/react": "18.2.21",
-    "@types/react-dom": "18.2.7",
-    "eslint": "8.49.0",
-    "eslint-config-next": "13.4.19",
-    "next": "^13.5.6",
-    "react": "18.2.0",
-    "react-animated-cursor": "^2.11.2",
-    "react-dom": "18.2.0",
-    "react-type-animation": "^3.2.0",
-    "tailwind": "^4.0.0",
-    "typescript": "5.2.2"
+    "next": "14.0.4",
+    "punycode": "^2.3.1",
+    "react": "^18",
+    "react-dom": "^18",
+    "react-type-animation": "^3.2.0"
   },
   "devDependencies": {
-    "@types/aos": "^3.0.6",
-    "@types/react-curved-text": "^2.0.2",
-    "autoprefixer": "^10.4.16",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.3"
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "autoprefixer": "^10.0.1",
+    "eslint": "^8",
+    "eslint-config-next": "14.0.4",
+    "postcss": "^8",
+    "tailwindcss": "^3.3.0",
+    "typescript": "^5"
   }
 }

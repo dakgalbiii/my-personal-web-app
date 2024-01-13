@@ -1,30 +1,20 @@
-import NavBar from '@/components/NavBar';
-import Welcome from '@/section/Welcome';
-import AboutMe from '@/section/AboutMe';
-
-import Projects from '@/section/Projects';
-import Contacts from '@/section/Contacts';
-import Footer from '@/components/Footer';
-
-import Link from 'next/link';
-import Image from 'next/image';
-import Experiences from '@/section/Experiences';
-
-
+import Image from 'next/image'
+import Navbar from './components/Navbar';
+import Welcome from './sections/Welcome';
+import AboutMe from './sections/AboutMe';
+import Projects from './sections/Projects';
+import Contacts from './sections/Contacts';
+import Footer from './components/Footer';
 
 export default function Home() {
   return (
-    <div className={"w-full h-min-screen flex flex-col justify-center items-center"}>
-      <NavBar />
+    <main className={"w-full h-min-screen flex flex-col justify-center items-center bg-[#102921]"}>
+      <Navbar />
         <Welcome />
         <AboutMe />
         <Projects />
         <Contacts />
-        
-        {/* <Experiences />
-        <Projects />
-         */}
       <Footer />
-    </div>
-  )
+    </main>
+    );
 }

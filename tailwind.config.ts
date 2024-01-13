@@ -14,57 +14,8 @@ const config: Config = {
         'gradient-conic':
           'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
-      keyframes: {
-        fadeInRight: {
-          '0%': { 
-            opacity: '0%',
-            transform: "translateX(-3rem)"
-          },
-          '100%': { 
-            opacity: '100%',
-            transform: "translateX(0)"
-          }
-        },
-        fadeIn: {
-          '0%': { 
-            opacity: '0%',
-            visibility: 'hidden',
-          },
-          '100%': { 
-            opacity: '100%',
-            visibility: 'visible',
-          }
-        },
-        fadeOut: {
-          '0%': {
-            opacity: '100%',
-            visibility: 'visible',
-          },
-          '100%': { 
-            opacity: '0%',
-            visibility: 'hidden',
-          }
-        },
-        fadePage: {
-          '0%': {
-            transform: "translateY(-3rem)",
-            opacity: '0%',
-          },
-          '100%': { 
-            opacity: '100%',
-            transform: "translateY(0)",
-          }
-        },
-      },
-      animation: {
-        'fade-in-right': 'fadeInRight 700ms ease-in-out',
-        'fade-in': 'fadeIn 300ms ease-in-out',
-        'fade-out': 'fadeOut 300ms ease-in-out forwards',
-        'fade-page': 'fadePage 700ms ease-in-out',
-      },
     },
   },
-  plugins: [
-  ],
+  plugins: [],
 }
 export default config

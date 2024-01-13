@@ -3,103 +3,39 @@
 @tailwind utilities;
 
 * {
-    font-family: 'Satoshi', sans-serif;
+  font-family: 'Satoshi', sans-serif;
 }
 
 @layer base {
-    html {
-        @apply scroll-smooth;
-    }
+  html {
+      @apply scroll-smooth;
+  }
 }
 
 .link-underline {
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#102921, #102921);
-    background-size: 0 1.5px;
-    background-position: 100% 100%;
-    background-repeat: no-repeat;
-    transition: background-size 250ms ease-in-out;
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#102921, #102921);
+  background-size: 0 1.5px;
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  transition: background-size 250ms ease-in-out;
 }
 
 .link-underline:hover {
-    background-size: 100% 1.5px;
-    background-position: 100% 100%;
+  background-size: 100% 1.5px;
+  background-position: 100% 100%;
 }
 
 .link-underline-1 {
-    border-bottom-width: 0;
-    background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
-    background-size: 0 1.5px;
-    background-position: 0 100%;
-    background-repeat: no-repeat;
-    transition: background-size 250ms ease-in-out;
+  border-bottom-width: 0;
+  background-image: linear-gradient(transparent, transparent), linear-gradient(#fff, #fff);
+  background-size: 0 1.5px;
+  background-position: 0 100%;
+  background-repeat: no-repeat;
+  transition: background-size 250ms ease-in-out;
 }
 
 .link-underline-1:hover {
-    background-size: 100% 1.5px;
-    background-position: 0 100%;
-}
-
-
-.blinking-cursor {
-    font-weight: 100;
-    font-size: 50px;
-    color: #fff;
-    -webkit-animation: 1.5s blink step-end infinite;
-    -moz-animation: 1.5s blink step-end infinite;
-    -ms-animation: 1.5s blink step-end infinite;
-    -o-animation: 1.5s blink step-end infinite;
-    animation: 1.5s blink step-end infinite;
-}
-
-@keyframes blink {
-    from, to {
-        color: transparent;
-    } 50% {
-        color: #fff;
-    }
-}
-
-@-moz-keyframes blink {
-    from, to {
-        color: transparent;
-    } 50% {
-        color: #fff;
-    }
-}
-
-@-webkit-keyframes blink {
-    from, to {
-        color: transparent;
-    } 50% {
-        color: #fff;
-    }
-}
-
-@-ms-keyframes blink {
-    from, to {
-        color: transparent;
-    } 50% {
-        color: #fff;
-    }
-}
-
-@-o-keyframes blink {
-    from, to {
-        color: transparent;
-    } 50% {
-        color: #fff;
-    }
-}
-
-@media (min-width: 1024px) {
-    .blinking-cursor {
-        font-size: 75px;
-    }
-}
-
-@media (min-width: 768px) { 
-    .blinking-cursor {
-        font-size: 60px;
-    }
+  background-size: 100% 1.5px;
+  background-position: 0 100%;
 }
