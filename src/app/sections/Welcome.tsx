@@ -24,12 +24,12 @@ const Welcome = () => {
                         className={"text-[#ffc117] text-[35px] sm:text-[50px] md:text-[42px] lg:text-[65px] xl:text-[70px]"}
                         repeat={Infinity}
                     />
-                    <p className={"mt-[2rem] text-[16px] lg:text-[20px] max-w-[90%] md:max-w-[380px] xl:max-w-[600px]"}>I'm Alvin, and I currently attend <Link href="https://www.cs.stonybrook.edu/" target="_blank" className="link-underline-1">Stony Brook University for computer science</Link>. Welcome to my personal website!</p>
+                    <p className={"mt-[2rem] text-[16px] lg:text-[20px] max-w-[90%] md:max-w-[380px] xl:max-w-[600px]"}>I'm Alvin, a Computer Science and Applied Mathematics & Statistics Major with a Digital Arts Minor at <Link href="https://www.cs.stonybrook.edu/" target="_blank" className="link-underline-1">Stony Brook University</Link>. Welcome to my personal website!</p>
 
                     <div className="flex flex-row justify-start items-center space-x-[2rem] mt-[1rem] md:mt-[2rem]">
                         <Link href="https://github.com/dakgalbiii" className="text-[2rem] transition-ease-in-out duration-200 hover:text-[gray]"><FontAwesomeIcon icon={faGithub} /></Link>
                         <Link href="https://www.linkedin.com/in/alvin-shin/" className="text-[2rem] transition-ease-in-out duration-200 hover:text-[gray]"><FontAwesomeIcon icon={faLinkedin} /></Link>
-                        <Link href="/blog" className="pointer-events-none whitespace-nowrap flex flex-row justify-center items-center transition-ease-in-out duration-200 hover:text-[gray]"> {/* TAKE OUT pointer-events-none WHEN BLOG PAGE IS COMPLETE!*/}
+                        <Link href="/blog" className="whitespace-nowrap flex flex-row justify-center items-center transition-ease-in-out duration-200 hover:text-[gray]"> {/* TAKE OUT pointer-events-none WHEN BLOG PAGE IS COMPLETE!*/}
                             <p className="text-[20px]">Blog&nbsp;
                                 <span><FontAwesomeIcon icon={faExternalLinkSquare} /></span>
                                 <span className="text-[13px]">{" (coming soon)"}</span>

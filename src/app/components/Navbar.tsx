@@ -1,14 +1,19 @@
 'use client';
 import React from "react";
 import Link from "next/link";
-
+import { usePathname, useRouter } from 'next/navigation';
+ 
 const NavBar = () => {
     const [menuToggled, setMenuToggle] = React.useState(false);
+    const router = usePathname();
 
     return (
         <div className="relative w-full">
             <div className="z-10 absolute flex justify-between md:justify-around items-center select-none py-[1.5rem] w-full px-[5%] md:px-0 bg-[#102921]">
-                <h1 className="text-[#fff] text-[25px] font-[300] transition-ease-in-out duration-200 hover:text-[#ffc117] cursor-pointer" onClick={() => setMenuToggle(false)}>Alvin Shin</h1>
+                <Link href={"/"}>
+                    <h1 className={"text-[25px] font-[300] transition-ease-in-out duration-200 cursor-pointer " + (router !== "/blog" ? "text-[#fff] hover:text-[#ffc117]" : "text-[#ffc117] hover:text-[grey]")} onClick={() => setMenuToggle(false)}>{"Alvin Shin" + (router !== "/blog" ? "" : " | Blog")}</h1>
+                </Link>
+                
                 <div className="text-[#fff] text-[18px] flex flex-row justify-center items-center space-x-[3rem] hidden md:block">
                     <Link href={"#about"} className={"link-underline-1"}>About</Link>
                     {/* <Link href={"#work"} className={"link-underline-1"}>Work</Link> */}
