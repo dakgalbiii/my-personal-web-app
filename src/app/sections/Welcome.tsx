@@ -24,7 +24,7 @@ const Welcome = () => {
                         className={"text-[#ffc117] text-[35px] sm:text-[50px] md:text-[42px] lg:text-[65px] xl:text-[70px]"}
                         repeat={Infinity}
                     />
-                    <p className={"mt-[2rem] text-[16px] lg:text-[20px] max-w-[90%] md:max-w-[380px] xl:max-w-[600px]"}>I'm Alvin, a Computer Science and Applied Mathematics & Statistics Major with a Digital Arts Minor at <Link href="https://www.cs.stonybrook.edu/" target="_blank" className="link-underline-1">Stony Brook University</Link>. Welcome to my personal website!</p>
+                    <p className={"mt-[2rem] text-[16px] lg:text-[20px] max-w-[90%] md:max-w-[380px] xl:max-w-[600px]"}>I'm Alvin, double majoring in Computer Science and Applied Mathematics & Statistics and minoring in Digital Arts at <Link href="https://www.cs.stonybrook.edu/" target="_blank" className="link-underline-1">Stony Brook University</Link>. Welcome to my personal website!</p>
 
                     <div className="flex flex-row justify-start items-center space-x-[2rem] mt-[1rem] md:mt-[2rem]">
                         <Link href="https://github.com/dakgalbiii" className="text-[2rem] transition-ease-in-out duration-200 hover:text-[gray]"><FontAwesomeIcon icon={faGithub} /></Link>
